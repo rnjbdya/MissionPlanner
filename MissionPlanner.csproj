@@ -77,6 +77,9 @@
     <EmbeddedResource Include="Antenna\TrackerUI.uk.resx">
       <DependentUpon>TrackerUI.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="controlMultipleRelays.resx">
+      <DependentUpon>controlMultipleRelays.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Controls\AuthKeys.uk.resx">
       <DependentUpon>AuthKeys.cs</DependentUpon>
     </EmbeddedResource>
@@ -673,6 +676,12 @@
   <ItemGroup>
     <Compile Include="Antenna\TrackerGeneric.cs" />
     <Compile Include="Common.cs" />
+    <Compile Include="controlMultipleRelays.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="controlMultipleRelays.Designer.cs">
+      <DependentUpon>controlMultipleRelays.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controls\DroneCANSubscriber.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -947,6 +956,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="plugins\example20-multiplepositions.cs" />
+    <Compile Include="plugins\control_multiple_relays_plug.cs" />
     <Compile Include="Utilities\AirMarket.cs">
       <SubType>UserControl</SubType>
     </Compile>
