@@ -144,14 +144,17 @@ namespace MissionPlanner
                     if (0 == rightJoystickState[0])
                     {
                         rightJoystickState[0] = 1;
-                        rightOne_Click(null, null); // Simulate rightOne button click in UI screen
+                        rightOne_Function(); // Simulate rightOne button click in UI screen
                     }
-
                     JoystickPressCount++;
                 }
-                else if (1 == rightJoystickState[0])
+                else 
                 {
-                    rightJoystickState[0] = 0;
+                    if (1 == rightJoystickState[0])
+                    {
+                        rightJoystickState[0] = 0;
+                        rightOne_Function();
+                    }
                 }
 
                 if (buttons[3])
@@ -159,14 +162,18 @@ namespace MissionPlanner
                     if (0 == rightJoystickState[1])
                     {
                         rightJoystickState[1] = 1;
-                        rightTwo_Click(null, null); // Simulate rightTwo button click in UI screen
+                        rightTwo_Function(); // Simulate rightTwo button click in UI screen
                     }
 
                     JoystickPressCount++;
                 }
-                else if (1 == rightJoystickState[1])
+                else 
                 {
-                    rightJoystickState[1] = 0;
+                    if (1 == rightJoystickState[1])
+                    {
+                        rightJoystickState[1] = 0;
+                        rightTwo_Function();
+                    }
                 }
 
                 if (buttons[2])
@@ -174,13 +181,17 @@ namespace MissionPlanner
                     if (0 == rightJoystickState[2])
                     {
                         rightJoystickState[2] = 1;
-                        rightThree_Click(null, null); // Simulate rightThree button click in UI screen
+                        rightThree_Function(); // Simulate rightThree button click in UI screen
                     }
                     JoystickPressCount++;
                 }
-                else if (1 == rightJoystickState[2])
+                else 
                 {
-                    rightJoystickState[2] = 0;
+                    if (1 == rightJoystickState[2])
+                    {
+                        rightJoystickState[2] = 0;
+                        rightThree_Function();
+                    }
                 }
 
                 if (buttons[1])
@@ -188,13 +199,17 @@ namespace MissionPlanner
                     if (0 == rightJoystickState[3])
                     {
                         rightJoystickState[3] = 1;
-                        rightFour_Click(null, null); // Simulate rightFour button click in UI screen
+                        rightFour_Function(); // Simulate rightFour button click in UI screen
                     }
                     JoystickPressCount++;
                 }
-                else if (1 == rightJoystickState[3])
+                else
                 {
-                    rightJoystickState[3] = 0;
+                    if (1 == rightJoystickState[3])
+                    { 
+                        rightJoystickState[3] = 0;
+                        rightFour_Function();
+                    }
                 }
 
                 if (buttons[0])
@@ -202,13 +217,17 @@ namespace MissionPlanner
                     if (0 == rightJoystickState[4])
                     {
                         rightJoystickState[4] = 1;
-                        rightFive_Click(null, null); // Simulate rightFive button click in UI screen
+                        rightFive_Function(); // Simulate rightFive button click in UI screen
                     }
                     JoystickPressCount++;
                 }
-                else if (1 == rightJoystickState[4])
+                else 
                 {
-                    rightJoystickState[4] = 0;
+                    if (1 == rightJoystickState[4])
+                    {
+                        rightJoystickState[4] = 0;
+                        rightFive_Function();
+                    }
                 }
 
                 // For Buttons on the left
@@ -217,13 +236,17 @@ namespace MissionPlanner
                     if (0 == leftJoystickState[0])
                     {
                         leftJoystickState[0] = 1;
-                        leftOne_Click(null, null); // Simulate leftOne button click in UI screen
+                        leftOne_Function(); // Simulate leftOne button click in UI screen
                     }
                     JoystickPressCount++;
                 }
-                else if (1 == leftJoystickState[0])
+                else
                 {
-                    leftJoystickState[0] = 0;
+                    if (1 == leftJoystickState[0])
+                    { 
+                        leftJoystickState[0] = 0;
+                        leftOne_Function();
+                    }
                 }
 
                 if (buttons[9])
@@ -231,13 +254,17 @@ namespace MissionPlanner
                     if (0 == leftJoystickState[1])
                     {
                         leftJoystickState[1] = 1;
-                        leftTwo_Click(null, null); // Simulate leftTwo button click in UI screen
+                        leftTwo_Function(); // Simulate leftTwo button click in UI screen
                     }
                     JoystickPressCount++;
                 }
-                else if (1 == leftJoystickState[0])
+                else 
                 {
-                    leftJoystickState[1] = 0;
+                    if (1 == leftJoystickState[1])
+                    {
+                        leftJoystickState[1] = 0;
+                        leftTwo_Function();
+                    }
                 }
 
                 if (buttons[8])
@@ -245,13 +272,17 @@ namespace MissionPlanner
                     if (0 == leftJoystickState[2])
                     {
                         leftJoystickState[2] = 1;
-                        leftThree_Click(null, null); // Simulate leftThree button click in UI screen
+                        leftThree_Function(); // Simulate leftThree button click in UI screen
                     }
                     JoystickPressCount++;
                 }
-                else if (1 == leftJoystickState[2])
+                else 
                 {
-                    leftJoystickState[2] = 0;
+                    if (1 == leftJoystickState[2])
+                    {
+                        leftJoystickState[2] = 0;
+                        leftThree_Function();
+                    }
                 }
 
                 if (buttons[7])
@@ -259,13 +290,17 @@ namespace MissionPlanner
                     if (0 == leftJoystickState[3])
                     {
                         leftJoystickState[3] = 1;
-                        leftFour_Click(null, null); // Simulate leftFour button click in UI screen
+                        leftFour_Function(); // Simulate leftFour button click in UI screen
                     }
                     JoystickPressCount++;
                 }
-                else if (1 == leftJoystickState[3])
+                else 
                 {
-                    leftJoystickState[3] = 0;
+                    if (1 == leftJoystickState[3])
+                    {
+                        leftJoystickState[3] = 0;
+                        leftFour_Function();
+                    }
                 }
 
                 if (buttons[6])
@@ -273,13 +308,17 @@ namespace MissionPlanner
                     if (0 == leftJoystickState[4])
                     {
                         leftJoystickState[4] = 1;
-                        leftFive_Click(null, null); // Simulate leftFive button click in UI screen
+                        leftFive_Function(); // Simulate leftFive button click in UI screen
                     }
                     JoystickPressCount++;
                 }
-                else if (1 == leftJoystickState[4])
+                else 
                 {
-                    leftJoystickState[4] = 0;
+                    if (1 == leftJoystickState[4])
+                    {
+                        leftJoystickState[4] = 0;
+                        leftFive_Function();
+                    }
                 }
 
                 // For fire and reset on right
@@ -288,30 +327,36 @@ namespace MissionPlanner
                     if (0 == rightJoystickState[5])
                     {
                         rightJoystickState[5] = 1;
-                        rightOn_CheckedChanged(null, null); // Simulate left Fire radio button select in UI screen
+                        rightOn_Function(); // Simulate left Fire radio button select in UI screen
                     }
                     JoystickPressCount++;
                 }
-                else if (1 == leftJoystickState[5])
+                else
                 {
-                    rightJoystickState[5] = 0;
-                    rightOff_CheckedChanged(null, null); // Simulate left Reset radio button select in UI screen
+                    if (1 == leftJoystickState[5])
+                    { 
+                        rightJoystickState[5] = 0;
+                        rightOff_Function(); // Simulate left Reset radio button select in UI screen
+                    }
                 }
 
                 // For fire and reset on left
                 if (buttons[11])
                 {
-                    if (leftJoystickState[5] == 0)
+                    if (0 == leftJoystickState[5])
                     {
                         leftJoystickState[5] = 1;
-                        leftOn_CheckedChanged(null, null); // Simulate right Fire radio button select in UI screen
+                        leftOn_Function(); // Simulate right Fire radio button select in UI screen
                     }
                     JoystickPressCount++;
                 }
-                else if (1 == leftJoystickState[5])
+                else 
                 {
-                    leftJoystickState[5] = 0;
-                    leftOff_CheckedChanged(null, null); // Simulate right Reset radio button select in UI screen
+                    if (1 == leftJoystickState[5])
+                    {
+                        leftJoystickState[5] = 0;
+                        leftOff_Function(); // Simulate right Reset radio button select in UI screen
+                    }
                 }
 
                 if (0 < JoystickPressCount)
@@ -453,190 +498,223 @@ namespace MissionPlanner
             }
         }
         // push lock switch (button 1~5)
+
+        void leftOne_Function()
+        {
+            if (0 == leftButtonState[0]) // button is not pushed yet
+            {
+                // button pushed and locked
+                //ready to fire
+                leftButtonState[0] = 1;
+                leftOne.Text = "Ready";
+                return;
+
+            }
+            else if (1 == leftButtonState[0]) // button is pushed already
+            {
+                // release
+                leftButtonState[0] = 0;
+                leftOne.Text = "1";
+                return;
+            }
+        }
         private void leftOne_Click(object sender, EventArgs e)
         {
-            if (!JoystickInUse || (JoystickInUse && 1 == leftJoystickState[0]))  // Only enable button click from UI when Joystick not in use
+            if (!JoystickInUse)  // Only enable button click from UI when Joystick not in use
             {
-                if (0 == leftButtonState[0]) // button is not pushed yet
-                {
-                    // button pushed and locked
-                    //ready to fire
-                    leftButtonState[0] = 1;
-                    leftOne.Text = "Ready";
-                    return;
+                leftOne_Function();
+            }
+        }
 
-                }
-                else if (1 == leftButtonState[0]) // button is pushed already
-                {
-                    // release
-                    leftButtonState[0] = 0;
-                    leftOne.Text = "1";
-                    return;
-                }
+        void leftTwo_Function()
+        {
+            if (0 == leftButtonState[1]) // button is not pushed yet
+            {
+                // button pushed and locked
+                // ready to fire
+                leftButtonState[1] = 1;
+                leftTwo.Text = "Ready";
+                return;
+
+            }
+            else if (1 == leftButtonState[1]) // button is pushed already
+            {
+                // release
+                leftButtonState[1] = 0;
+                leftTwo.Text = "2";
+                return;
             }
         }
 
         private void leftTwo_Click(object sender, EventArgs e)
         {
-            if (!JoystickInUse || (JoystickInUse && 1 == leftJoystickState[1]))  // Only enable button click from UI when Joystick not in use
+            if (!JoystickInUse)  // Only enable button click from UI when Joystick not in use
             {
-                if (0 == leftButtonState[1]) // button is not pushed yet
-                {
-                    // button pushed and locked
-                    // ready to fire
-                    leftButtonState[1] = 1;
-                    leftTwo.Text = "Ready";
-                    return;
-
-                }
-                else if (1 == leftButtonState[1]) // button is pushed already
-                {
-                    // release
-                    leftButtonState[1] = 0;
-                    leftTwo.Text = "2";
-                    return;
-                }
+                leftTwo_Function();
             }
         }
 
+        void leftThree_Function()
+        {
+            if (0 == leftButtonState[2]) // button is not pushed yet
+            {
+                // button pushed and locked
+                //ready to fire
+                leftButtonState[2] = 1;
+                leftThree.Text = "Ready";
+                return;
+
+            }
+            else if (1 == leftButtonState[2]) // button is pushed already
+            {
+                // release
+                leftButtonState[2] = 0;
+                leftThree.Text = "3";
+                return;
+            }
+        }
+        
         private void leftThree_Click(object sender, EventArgs e)
         {
-            if (!JoystickInUse || (JoystickInUse && 1 == leftJoystickState[2]))  // Only enable button click from UI when Joystick not in use
+            if (!JoystickInUse)  // Only enable button click from UI when Joystick not in use
             {
-                if (0 == leftButtonState[2]) // button is not pushed yet
-                {
-                    // button pushed and locked
-                    //ready to fire
-                    leftButtonState[2] = 1;
-                    leftThree.Text = "Ready";
-                    return;
+                leftThree_Function();
+            }
+        }
 
-                }
-                else if (1 == leftButtonState[2]) // button is pushed already
-                {
-                    // release
-                    leftButtonState[2] = 0;
-                    leftThree.Text = "3";
-                    return;
-                }
+        void leftFour_Function()
+        {
+            if (0 == leftButtonState[3]) // button is not pushed yet
+            {
+                // button pushed and locked
+                //ready to fire
+                leftButtonState[3] = 1;
+                leftFour.Text = "Ready";
+                return;
+            }
+            else if (1 == leftButtonState[3]) // button is pushed already
+            {
+                // release
+                leftButtonState[3] = 0;
+                leftFour.Text = "4";
+                return;
             }
         }
 
         private void leftFour_Click(object sender, EventArgs e)
         {
-            if (!JoystickInUse || (JoystickInUse && 1 == leftJoystickState[3]))  // Only enable button click from UI when Joystick not in use
+            if (!JoystickInUse)  // Only enable button click from UI when Joystick not in use
             {
-                if (0 == leftButtonState[3]) // button is not pushed yet
-                {
-                    // button pushed and locked
-                    //ready to fire
-                    leftButtonState[3] = 1;
-                    leftFour.Text = "Ready";
-                    return;
+                leftFour_Function();
+            }
+        }
 
-                }
-                else if (1 == leftButtonState[3]) // button is pushed already
-                {
-                    // release
-                    leftButtonState[3] = 0;
-                    leftFour.Text = "4";
-                    return;
-                }
+        void leftFive_Function()
+        {
+            if (0 == leftButtonState[4]) // button is not pushed yet
+            {
+                // button pushed and locked
+                // ready to fire
+                leftButtonState[4] = 1;
+                leftFive.Text = "Ready";
+                return;
+            }
+            else if (1 == leftButtonState[4]) // button is pushed already
+            {
+                // release
+                leftButtonState[4] = 0;
+                leftFive.Text = "5";
+                return;
             }
         }
 
         private void leftFive_Click(object sender, EventArgs e)
         {
-            if (!JoystickInUse || (JoystickInUse && 1 == leftJoystickState[4]))  // Only enable button click from UI when Joystick not in use
+            if (!JoystickInUse)  // Only enable button click from UI when Joystick not in use
             {
-                if (0 == leftButtonState[4]) // button is not pushed yet
-                {
-                    // button pushed and locked
-                    // ready to fire
-                    leftButtonState[4] = 1;
-                    leftFive.Text = "Ready";
-                    return;
-
-                }
-                else if (1 == leftButtonState[4]) // button is pushed already
-                {
-                    // release
-                    leftButtonState[4] = 0;
-                    leftFive.Text = "5";
-                    return;
-                }
+                leftFive_Function();
             }
         }
 
         // Final launch Button
         // Launch all ready to fire bullets at once
         // toggle switch ( On or Off )
+        void leftOn_Function()
+        {
+            if (!isLeftOn)
+            {
+                isLeftOn = true;
+
+                if (checkTrueBitEqulity(arr00000, leftButtonState)) PWM = 1000;
+                else if (checkTrueBitEqulity(arr00001, leftButtonState)) PWM = 1015;
+                else if (checkTrueBitEqulity(arr00010, leftButtonState)) PWM = 1030;
+                else if (checkTrueBitEqulity(arr00011, leftButtonState)) PWM = 1045;
+                else if (checkTrueBitEqulity(arr00100, leftButtonState)) PWM = 1060;
+                else if (checkTrueBitEqulity(arr00101, leftButtonState)) PWM = 1075;
+                else if (checkTrueBitEqulity(arr00110, leftButtonState)) PWM = 1090;
+                else if (checkTrueBitEqulity(arr00111, leftButtonState)) PWM = 1105;
+                else if (checkTrueBitEqulity(arr01000, leftButtonState)) PWM = 1120;
+                else if (checkTrueBitEqulity(arr01001, leftButtonState)) PWM = 1135;
+
+                else if (checkTrueBitEqulity(arr01010, leftButtonState)) PWM = 1150;
+                else if (checkTrueBitEqulity(arr01011, leftButtonState)) PWM = 1165;
+                else if (checkTrueBitEqulity(arr01100, leftButtonState)) PWM = 1180;
+                else if (checkTrueBitEqulity(arr01101, leftButtonState)) PWM = 1195;
+                else if (checkTrueBitEqulity(arr01110, leftButtonState)) PWM = 1210;
+                else if (checkTrueBitEqulity(arr01111, leftButtonState)) PWM = 1225;
+                else if (checkTrueBitEqulity(arr10000, leftButtonState)) PWM = 1240;
+                else if (checkTrueBitEqulity(arr10001, leftButtonState)) PWM = 1255;
+                else if (checkTrueBitEqulity(arr10010, leftButtonState)) PWM = 1270;
+                else if (checkTrueBitEqulity(arr10011, leftButtonState)) PWM = 1285;
+
+                else if (checkTrueBitEqulity(arr10100, leftButtonState)) PWM = 1300;
+                else if (checkTrueBitEqulity(arr10101, leftButtonState)) PWM = 1315;
+                else if (checkTrueBitEqulity(arr10110, leftButtonState)) PWM = 1330;
+                else if (checkTrueBitEqulity(arr10111, leftButtonState)) PWM = 1345;
+                else if (checkTrueBitEqulity(arr11000, leftButtonState)) PWM = 1360;
+                else if (checkTrueBitEqulity(arr11001, leftButtonState)) PWM = 1375;
+                else if (checkTrueBitEqulity(arr11010, leftButtonState)) PWM = 1390;
+                else if (checkTrueBitEqulity(arr11011, leftButtonState)) PWM = 1405;
+                else if (checkTrueBitEqulity(arr11100, leftButtonState)) PWM = 1420;
+                else if (checkTrueBitEqulity(arr11101, leftButtonState)) PWM = 1435;
+
+                else if (checkTrueBitEqulity(arr11110, leftButtonState)) PWM = 1450;
+                else if (checkTrueBitEqulity(arr11111, leftButtonState))
+                {
+                    PWM = 1465;
+                }
+                sendPWMtoFC(PWM);
+
+                buttonStateUpdate("After Left Side Launch");
+                Thread.Sleep(1000);
+                sendPWMtoFC(1000);
+            }
+        }
+
         private void leftOn_CheckedChanged(object sender, EventArgs e)
         {
-            if (!JoystickInUse || (JoystickInUse && 1 == leftJoystickState[5]))  // Only enable button click from UI when Joystick not in use
+            if (!JoystickInUse)  // Only enable button click from UI when Joystick not in use
             {
-                if (!isLeftOn)
-                {
-                    isLeftOn = true;
+                leftOn_Function();
+            }
+        }
 
-                    if (checkTrueBitEqulity(arr00000, leftButtonState)) PWM = 1000;
-                    else if (checkTrueBitEqulity(arr00001, leftButtonState)) PWM = 1015;
-                    else if (checkTrueBitEqulity(arr00010, leftButtonState)) PWM = 1030;
-                    else if (checkTrueBitEqulity(arr00011, leftButtonState)) PWM = 1045;
-                    else if (checkTrueBitEqulity(arr00100, leftButtonState)) PWM = 1060;
-                    else if (checkTrueBitEqulity(arr00101, leftButtonState)) PWM = 1075;
-                    else if (checkTrueBitEqulity(arr00110, leftButtonState)) PWM = 1090;
-                    else if (checkTrueBitEqulity(arr00111, leftButtonState)) PWM = 1105;
-                    else if (checkTrueBitEqulity(arr01000, leftButtonState)) PWM = 1120;
-                    else if (checkTrueBitEqulity(arr01001, leftButtonState)) PWM = 1135;
-
-                    else if (checkTrueBitEqulity(arr01010, leftButtonState)) PWM = 1150;
-                    else if (checkTrueBitEqulity(arr01011, leftButtonState)) PWM = 1165;
-                    else if (checkTrueBitEqulity(arr01100, leftButtonState)) PWM = 1180;
-                    else if (checkTrueBitEqulity(arr01101, leftButtonState)) PWM = 1195;
-                    else if (checkTrueBitEqulity(arr01110, leftButtonState)) PWM = 1210;
-                    else if (checkTrueBitEqulity(arr01111, leftButtonState)) PWM = 1225;
-                    else if (checkTrueBitEqulity(arr10000, leftButtonState)) PWM = 1240;
-                    else if (checkTrueBitEqulity(arr10001, leftButtonState)) PWM = 1255;
-                    else if (checkTrueBitEqulity(arr10010, leftButtonState)) PWM = 1270;
-                    else if (checkTrueBitEqulity(arr10011, leftButtonState)) PWM = 1285;
-
-                    else if (checkTrueBitEqulity(arr10100, leftButtonState)) PWM = 1300;
-                    else if (checkTrueBitEqulity(arr10101, leftButtonState)) PWM = 1315;
-                    else if (checkTrueBitEqulity(arr10110, leftButtonState)) PWM = 1330;
-                    else if (checkTrueBitEqulity(arr10111, leftButtonState)) PWM = 1345;
-                    else if (checkTrueBitEqulity(arr11000, leftButtonState)) PWM = 1360;
-                    else if (checkTrueBitEqulity(arr11001, leftButtonState)) PWM = 1375;
-                    else if (checkTrueBitEqulity(arr11010, leftButtonState)) PWM = 1390;
-                    else if (checkTrueBitEqulity(arr11011, leftButtonState)) PWM = 1405;
-                    else if (checkTrueBitEqulity(arr11100, leftButtonState)) PWM = 1420;
-                    else if (checkTrueBitEqulity(arr11101, leftButtonState)) PWM = 1435;
-
-                    else if (checkTrueBitEqulity(arr11110, leftButtonState)) PWM = 1450;
-                    else if (checkTrueBitEqulity(arr11111, leftButtonState))
-                    {
-                        PWM = 1465;
-                    }
-                    sendPWMtoFC(PWM);
-
-                    buttonStateUpdate("After Left Side Launch");
-                    Thread.Sleep(1000);
-                    sendPWMtoFC(1000);
-                }
+        void leftOff_Function()
+        {
+            if (isLeftOn)
+            {
+                isLeftOn = false;
+                sendPWMtoFC(1000);
+                buttonStateUpdate("After Left Side Reset");
             }
         }
 
         // Reset after launch
         private void leftOff_CheckedChanged(object sender, EventArgs e)
         {
-            if (!JoystickInUse || (JoystickInUse && 0 == leftJoystickState[5]))  // Only enable button click from UI when Joystick not in use
+            if (!JoystickInUse)  // Only enable button click from UI when Joystick not in use
             {
-                if (isLeftOn)
-                {
-                    isLeftOn = false;
-                    sendPWMtoFC(1000);
-                    buttonStateUpdate("After Left Side Reset");
-                }
+                leftOff_Function();
             }
         }
 
@@ -662,161 +740,194 @@ namespace MissionPlanner
             }
         }
 
+        void rightOne_Function()
+        {
+            if (0 == rightButtonState[0]) // button is not pushed yet
+            {
+                rightButtonState[0] = 1;
+                rightOne.Text = "Ready";
+            }
+            else if (1 == rightButtonState[0]) // button is pushed already
+            {
+                rightButtonState[0] = 0;
+                rightOne.Text = "1";
+            }
+        }
+
         // push lock switch (button 1~5)
         private void rightOne_Click(object sender, EventArgs e)
         {
-            if (!JoystickInUse || (JoystickInUse && 1 == rightJoystickState[0]))  // Only enable button click from UI when Joystick not in use
+            if (!JoystickInUse)  // Only enable button click from UI when Joystick not in use
             {
-                if (0 == rightButtonState[0]) // button is not pushed yet
-                {
-                    rightButtonState[0] = 1;
-                    rightOne.Text = "Ready";
-                }
-                else if (1 == rightButtonState[0]) // button is pushed already
-                {
-                    rightButtonState[0] = 0;
-                    rightOne.Text = "1";
-                }
+                rightOne_Function();
+            }
+        }
+
+        void rightTwo_Function()
+        {
+            if (0 == rightButtonState[1]) // button is not pushed yet
+            {
+                rightButtonState[1] = 1;
+                rightTwo.Text = "Ready";
+            }
+            else if (1 == rightButtonState[1]) // button is pushed already
+            {
+                rightButtonState[1] = 0;
+                rightTwo.Text = "2";
             }
         }
 
         private void rightTwo_Click(object sender, EventArgs e)
         {
-            if (!JoystickInUse || (JoystickInUse && 1 == rightJoystickState[1]))  // Only enable button click from UI when Joystick not in use
+            if (!JoystickInUse)  // Only enable button click from UI when Joystick not in use
             {
-                if (0 == rightButtonState[1]) // button is not pushed yet
-                {
-                    rightButtonState[1] = 1;
-                    rightTwo.Text = "Ready";
-                }
-                else if (1 == rightButtonState[1]) // button is pushed already
-                {
-                    rightButtonState[1] = 0;
-                    rightTwo.Text = "2";
-                }
+                rightTwo_Function();
             }
         }
 
+        void rightThree_Function()
+        {
+            if (0 == rightButtonState[2]) // button is not pushed yet
+            {
+                rightButtonState[2] = 1;
+                rightThree.Text = "Ready";
+            }
+            else if (1 == rightButtonState[2]) // button is pushed already
+            {
+                rightButtonState[2] = 0;
+                rightThree.Text = "3";
+            }
+        }
         private void rightThree_Click(object sender, EventArgs e)
         {
-            if (!JoystickInUse || (JoystickInUse && 1 == rightJoystickState[2]))  // Only enable button click from UI when Joystick not in use
+            if (!JoystickInUse)  // Only enable button click from UI when Joystick not in use
             {
-                if (0 == rightButtonState[2]) // button is not pushed yet
-                {
-                    rightButtonState[2] = 1;
-                    rightThree.Text = "Ready";
-                }
-                else if (1 == rightButtonState[2]) // button is pushed already
-                {
-                    rightButtonState[2] = 0;
-                    rightThree.Text = "3";
-                }
+                rightThree_Function();
+            }
+        }
+
+        void rightFour_Function()
+        {
+            if (0 == rightButtonState[3]) // button is not pushed yet
+            {
+                rightButtonState[3] = 1;
+                rightFour.Text = "Ready";
+            }
+            else if (1 == rightButtonState[3]) // button is pushed already
+            {
+                rightButtonState[3] = 0;
+                rightFour.Text = "4";
             }
         }
 
         private void rightFour_Click(object sender, EventArgs e)
         {
-            if (!JoystickInUse || (JoystickInUse && 1 == rightJoystickState[3]))  // Only enable button click from UI when Joystick not in use
+            if (!JoystickInUse)  // Only enable button click from UI when Joystick not in use
             {
-                if (0 == rightButtonState[3]) // button is not pushed yet
-                {
-                    rightButtonState[3] = 1;
-                    rightFour.Text = "Ready";
-                }
-                else if (1 == rightButtonState[3]) // button is pushed already
-                {
-                    rightButtonState[3] = 0;
-                    rightFour.Text = "4";
-                }
+                rightFour_Function();
+            }
+        }
+
+        void rightFive_Function()
+        {
+            if (0 == rightButtonState[4]) // button is not pushed yet
+            {
+                rightButtonState[4] = 1;
+                rightFive.Text = "Ready";
+            }
+            else if (1 == rightButtonState[4]) // button is pushed already
+            {
+                rightButtonState[4] = 0;
+                rightFive.Text = "5";
             }
         }
 
         private void rightFive_Click(object sender, EventArgs e)
         {
-            if (!JoystickInUse || (JoystickInUse && 1 == rightJoystickState[4]))  // Only enable button click from UI when Joystick not in use
+            if (!JoystickInUse)  // Only enable button click from UI when Joystick not in use
             {
-                if (0 == rightButtonState[4]) // button is not pushed yet
-                {
-                    rightButtonState[4] = 1;
-                    rightFive.Text = "Ready";
-                }
-                else if (1 == rightButtonState[4]) // button is pushed already
-                {
-                    rightButtonState[4] = 0;
-                    rightFive.Text = "5";
-                }
+                rightFive_Function();
             }
         }
 
+        void rightOn_Function()
+        {
+            if (!isRightOn)
+            {
+                isRightOn = true;
+
+                if (checkTrueBitEqulity(arr00000, rightButtonState)) PWM = 1500;
+                else if (checkTrueBitEqulity(arr00001, rightButtonState)) PWM = 1515;//
+                else if (checkTrueBitEqulity(arr00010, rightButtonState)) PWM = 1530;//
+                else if (checkTrueBitEqulity(arr00011, rightButtonState)) PWM = 1545;//
+                else if (checkTrueBitEqulity(arr00100, rightButtonState)) PWM = 1560;//
+                else if (checkTrueBitEqulity(arr00101, rightButtonState)) PWM = 1575;//
+                else if (checkTrueBitEqulity(arr00110, rightButtonState)) PWM = 1590;//
+                else if (checkTrueBitEqulity(arr00111, rightButtonState)) PWM = 1605;//
+                else if (checkTrueBitEqulity(arr01000, rightButtonState)) PWM = 1620;//
+                else if (checkTrueBitEqulity(arr01001, rightButtonState)) PWM = 1635;
+
+                else if (checkTrueBitEqulity(arr01010, rightButtonState)) PWM = 1650;
+                else if (checkTrueBitEqulity(arr01011, rightButtonState)) PWM = 1665;
+                else if (checkTrueBitEqulity(arr01100, rightButtonState)) PWM = 1680;
+                else if (checkTrueBitEqulity(arr01101, rightButtonState)) PWM = 1695;
+                else if (checkTrueBitEqulity(arr01110, rightButtonState)) PWM = 1710;
+                else if (checkTrueBitEqulity(arr01111, rightButtonState)) PWM = 1725;
+                else if (checkTrueBitEqulity(arr10000, rightButtonState)) PWM = 1740;
+                else if (checkTrueBitEqulity(arr10001, rightButtonState)) PWM = 1755;
+                else if (checkTrueBitEqulity(arr10010, rightButtonState)) PWM = 1770;
+                else if (checkTrueBitEqulity(arr10011, rightButtonState)) PWM = 1785;
+
+                else if (checkTrueBitEqulity(arr10100, rightButtonState)) PWM = 1800;
+                else if (checkTrueBitEqulity(arr10101, rightButtonState)) PWM = 1815;
+                else if (checkTrueBitEqulity(arr10110, rightButtonState)) PWM = 1830;//
+                else if (checkTrueBitEqulity(arr10111, rightButtonState)) PWM = 1845;//
+                else if (checkTrueBitEqulity(arr11000, rightButtonState)) PWM = 1860;//
+                else if (checkTrueBitEqulity(arr11001, rightButtonState)) PWM = 1875;//
+                else if (checkTrueBitEqulity(arr11010, rightButtonState)) PWM = 1890;//
+                else if (checkTrueBitEqulity(arr11011, rightButtonState)) PWM = 1905;//
+                else if (checkTrueBitEqulity(arr11100, rightButtonState)) PWM = 1920;//
+                else if (checkTrueBitEqulity(arr11101, rightButtonState)) PWM = 1935;//
+
+                else if (checkTrueBitEqulity(arr11110, rightButtonState)) PWM = 1950;//
+                else if (checkTrueBitEqulity(arr11111, rightButtonState)) PWM = 1965;//
+                                                                                     // else PWM = 0;
+
+                sendPWMtoFC(PWM);
+
+                buttonStateUpdate("After Right Side Launch");
+                Thread.Sleep(1000);
+                sendPWMtoFC(1500);
+            }
+        }
 
         // Final launch Button
         // Luanch all ready to fire bullets at once
         // toggle switch (On or Off)
         private void rightOn_CheckedChanged(object sender, EventArgs e)
         {
-            if (!JoystickInUse || (JoystickInUse && 1 == rightJoystickState[5]))  // Only enable button click from UI when Joystick not in use
+            if (!JoystickInUse)  // Only enable button click from UI when Joystick not in use
             {
-                if (!isRightOn)
-                {
-                    isRightOn = true;
+                rightOn_Function();
+            }
+        }
 
-                    if (checkTrueBitEqulity(arr00000, rightButtonState)) PWM = 1500;
-                    else if (checkTrueBitEqulity(arr00001, rightButtonState)) PWM = 1515;//
-                    else if (checkTrueBitEqulity(arr00010, rightButtonState)) PWM = 1530;//
-                    else if (checkTrueBitEqulity(arr00011, rightButtonState)) PWM = 1545;//
-                    else if (checkTrueBitEqulity(arr00100, rightButtonState)) PWM = 1560;//
-                    else if (checkTrueBitEqulity(arr00101, rightButtonState)) PWM = 1575;//
-                    else if (checkTrueBitEqulity(arr00110, rightButtonState)) PWM = 1590;//
-                    else if (checkTrueBitEqulity(arr00111, rightButtonState)) PWM = 1605;//
-                    else if (checkTrueBitEqulity(arr01000, rightButtonState)) PWM = 1620;//
-                    else if (checkTrueBitEqulity(arr01001, rightButtonState)) PWM = 1635;
-
-                    else if (checkTrueBitEqulity(arr01010, rightButtonState)) PWM = 1650;
-                    else if (checkTrueBitEqulity(arr01011, rightButtonState)) PWM = 1665;
-                    else if (checkTrueBitEqulity(arr01100, rightButtonState)) PWM = 1680;
-                    else if (checkTrueBitEqulity(arr01101, rightButtonState)) PWM = 1695;
-                    else if (checkTrueBitEqulity(arr01110, rightButtonState)) PWM = 1710;
-                    else if (checkTrueBitEqulity(arr01111, rightButtonState)) PWM = 1725;
-                    else if (checkTrueBitEqulity(arr10000, rightButtonState)) PWM = 1740;
-                    else if (checkTrueBitEqulity(arr10001, rightButtonState)) PWM = 1755;
-                    else if (checkTrueBitEqulity(arr10010, rightButtonState)) PWM = 1770;
-                    else if (checkTrueBitEqulity(arr10011, rightButtonState)) PWM = 1785;
-
-                    else if (checkTrueBitEqulity(arr10100, rightButtonState)) PWM = 1800;
-                    else if (checkTrueBitEqulity(arr10101, rightButtonState)) PWM = 1815;
-                    else if (checkTrueBitEqulity(arr10110, rightButtonState)) PWM = 1830;//
-                    else if (checkTrueBitEqulity(arr10111, rightButtonState)) PWM = 1845;//
-                    else if (checkTrueBitEqulity(arr11000, rightButtonState)) PWM = 1860;//
-                    else if (checkTrueBitEqulity(arr11001, rightButtonState)) PWM = 1875;//
-                    else if (checkTrueBitEqulity(arr11010, rightButtonState)) PWM = 1890;//
-                    else if (checkTrueBitEqulity(arr11011, rightButtonState)) PWM = 1905;//
-                    else if (checkTrueBitEqulity(arr11100, rightButtonState)) PWM = 1920;//
-                    else if (checkTrueBitEqulity(arr11101, rightButtonState)) PWM = 1935;//
-
-                    else if (checkTrueBitEqulity(arr11110, rightButtonState)) PWM = 1950;//
-                    else if (checkTrueBitEqulity(arr11111, rightButtonState)) PWM = 1965;//
-                                                                                         // else PWM = 0;
-
-                    sendPWMtoFC(PWM);
-
-                    buttonStateUpdate("After Right Side Launch");
-                    Thread.Sleep(1000);
-                    sendPWMtoFC(1500);
-                }
+        void rightOff_Function()
+        {
+            if (isRightOn)
+            {
+                isRightOn = false;
+                sendPWMtoFC(1500);
+                buttonStateUpdate("After Right Side Reset");
             }
         }
 
         // Reset after launch
         private void rightOff_CheckedChanged(object sender, EventArgs e)
         {
-            if (!JoystickInUse || (JoystickInUse && 0 == rightJoystickState[5]))  // Only enable button click from UI when Joystick not in use
+            if (!JoystickInUse)  // Only enable button click from UI when Joystick not in use
             {
-                if (isRightOn)
-                {
-                    isRightOn = false;
-                    sendPWMtoFC(1500);
-                    buttonStateUpdate("After Right Side Reset");
-                }
+                rightOff_Function();
             }
         }
 

@@ -76,7 +76,7 @@
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.groupBox1.Size = new System.Drawing.Size(755, 421);
+            this.groupBox1.Size = new System.Drawing.Size(777, 421);
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Left";
@@ -84,7 +84,7 @@
             // leftAll
             // 
             this.leftAll.Font = new System.Drawing.Font("Gulim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.leftAll.Location = new System.Drawing.Point(515, 81);
+            this.leftAll.Location = new System.Drawing.Point(530, 81);
             this.leftAll.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.leftAll.Name = "leftAll";
             this.leftAll.Size = new System.Drawing.Size(233, 145);
@@ -139,7 +139,7 @@
             this.leftOne.Location = new System.Drawing.Point(7, 252);
             this.leftOne.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.leftOne.Name = "leftOne";
-            this.leftOne.Size = new System.Drawing.Size(128, 145);
+            this.leftOne.Size = new System.Drawing.Size(148, 145);
             this.leftOne.TabIndex = 2;
             this.leftOne.Text = "1";
             this.leftOne.TextColorNotEnabled = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(87)))), ((int)(((byte)(4)))));
@@ -152,7 +152,7 @@
             this.leftFive.Location = new System.Drawing.Point(621, 252);
             this.leftFive.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.leftFive.Name = "leftFive";
-            this.leftFive.Size = new System.Drawing.Size(128, 145);
+            this.leftFive.Size = new System.Drawing.Size(142, 145);
             this.leftFive.TabIndex = 6;
             this.leftFive.Text = "5";
             this.leftFive.TextColorNotEnabled = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(87)))), ((int)(((byte)(4)))));
@@ -165,7 +165,7 @@
             this.leftTwo.Location = new System.Drawing.Point(161, 252);
             this.leftTwo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.leftTwo.Name = "leftTwo";
-            this.leftTwo.Size = new System.Drawing.Size(128, 145);
+            this.leftTwo.Size = new System.Drawing.Size(148, 145);
             this.leftTwo.TabIndex = 3;
             this.leftTwo.Text = "2";
             this.leftTwo.TextColorNotEnabled = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(87)))), ((int)(((byte)(4)))));
@@ -178,7 +178,7 @@
             this.leftThree.Location = new System.Drawing.Point(315, 252);
             this.leftThree.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.leftThree.Name = "leftThree";
-            this.leftThree.Size = new System.Drawing.Size(128, 145);
+            this.leftThree.Size = new System.Drawing.Size(145, 145);
             this.leftThree.TabIndex = 4;
             this.leftThree.Text = "3";
             this.leftThree.TextColorNotEnabled = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(87)))), ((int)(((byte)(4)))));
@@ -191,7 +191,7 @@
             this.leftFour.Location = new System.Drawing.Point(466, 252);
             this.leftFour.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.leftFour.Name = "leftFour";
-            this.leftFour.Size = new System.Drawing.Size(128, 145);
+            this.leftFour.Size = new System.Drawing.Size(149, 145);
             this.leftFour.TabIndex = 5;
             this.leftFour.Text = "4";
             this.leftFour.TextColorNotEnabled = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(87)))), ((int)(((byte)(4)))));
@@ -208,11 +208,11 @@
             this.groupBox2.Controls.Add(this.rightThree);
             this.groupBox2.Controls.Add(this.rightFour);
             this.groupBox2.Font = new System.Drawing.Font("Gulim", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.groupBox2.Location = new System.Drawing.Point(779, 369);
+            this.groupBox2.Location = new System.Drawing.Point(790, 369);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.groupBox2.Size = new System.Drawing.Size(760, 421);
+            this.groupBox2.Size = new System.Drawing.Size(794, 421);
             this.groupBox2.TabIndex = 8;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Right";
@@ -222,7 +222,7 @@
             // 
             this.rightOnOff.Controls.Add(this.rightOn);
             this.rightOnOff.Controls.Add(this.rightOff);
-            this.rightOnOff.Location = new System.Drawing.Point(7, 67);
+            this.rightOnOff.Location = new System.Drawing.Point(20, 65);
             this.rightOnOff.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.rightOnOff.Name = "rightOnOff";
             this.rightOnOff.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -250,7 +250,7 @@
             this.rightOff.Location = new System.Drawing.Point(301, 63);
             this.rightOff.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.rightOff.Name = "rightOff";
-            this.rightOff.Size = new System.Drawing.Size(159, 52);
+            this.rightOff.Size = new System.Drawing.Size(175, 52);
             this.rightOff.TabIndex = 0;
             this.rightOff.TabStop = true;
             this.rightOff.Text = "Reset";
@@ -260,7 +260,7 @@
             // rightAll
             // 
             this.rightAll.Font = new System.Drawing.Font("Gulim", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.rightAll.Location = new System.Drawing.Point(511, 83);
+            this.rightAll.Location = new System.Drawing.Point(542, 84);
             this.rightAll.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.rightAll.Name = "rightAll";
             this.rightAll.Size = new System.Drawing.Size(230, 145);
@@ -273,10 +273,10 @@
             // rightTwo
             // 
             this.rightTwo.Font = new System.Drawing.Font("Gulim", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.rightTwo.Location = new System.Drawing.Point(152, 252);
+            this.rightTwo.Location = new System.Drawing.Point(156, 252);
             this.rightTwo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.rightTwo.Name = "rightTwo";
-            this.rightTwo.Size = new System.Drawing.Size(128, 145);
+            this.rightTwo.Size = new System.Drawing.Size(146, 145);
             this.rightTwo.TabIndex = 3;
             this.rightTwo.Text = "2";
             this.rightTwo.TextColorNotEnabled = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(87)))), ((int)(((byte)(4)))));
@@ -289,7 +289,7 @@
             this.rightOne.Location = new System.Drawing.Point(1, 252);
             this.rightOne.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.rightOne.Name = "rightOne";
-            this.rightOne.Size = new System.Drawing.Size(128, 145);
+            this.rightOne.Size = new System.Drawing.Size(149, 145);
             this.rightOne.TabIndex = 2;
             this.rightOne.Text = "1";
             this.rightOne.TextColorNotEnabled = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(87)))), ((int)(((byte)(4)))));
@@ -299,10 +299,10 @@
             // rightFive
             // 
             this.rightFive.Font = new System.Drawing.Font("Gulim", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.rightFive.Location = new System.Drawing.Point(613, 252);
+            this.rightFive.Location = new System.Drawing.Point(628, 252);
             this.rightFive.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.rightFive.Name = "rightFive";
-            this.rightFive.Size = new System.Drawing.Size(128, 145);
+            this.rightFive.Size = new System.Drawing.Size(144, 145);
             this.rightFive.TabIndex = 6;
             this.rightFive.Text = "5";
             this.rightFive.TextColorNotEnabled = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(87)))), ((int)(((byte)(4)))));
@@ -312,10 +312,10 @@
             // rightThree
             // 
             this.rightThree.Font = new System.Drawing.Font("Gulim", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.rightThree.Location = new System.Drawing.Point(307, 252);
+            this.rightThree.Location = new System.Drawing.Point(308, 252);
             this.rightThree.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.rightThree.Name = "rightThree";
-            this.rightThree.Size = new System.Drawing.Size(128, 145);
+            this.rightThree.Size = new System.Drawing.Size(159, 145);
             this.rightThree.TabIndex = 4;
             this.rightThree.Text = "3";
             this.rightThree.TextColorNotEnabled = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(87)))), ((int)(((byte)(4)))));
@@ -325,10 +325,10 @@
             // rightFour
             // 
             this.rightFour.Font = new System.Drawing.Font("Gulim", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.rightFour.Location = new System.Drawing.Point(458, 252);
+            this.rightFour.Location = new System.Drawing.Point(476, 252);
             this.rightFour.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.rightFour.Name = "rightFour";
-            this.rightFour.Size = new System.Drawing.Size(128, 145);
+            this.rightFour.Size = new System.Drawing.Size(146, 145);
             this.rightFour.TabIndex = 5;
             this.rightFour.Text = "4";
             this.rightFour.TextColorNotEnabled = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(87)))), ((int)(((byte)(4)))));
@@ -352,7 +352,8 @@
             this.pictureBox1.Location = new System.Drawing.Point(23, 16);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1507, 345);
+            this.pictureBox1.Size = new System.Drawing.Size(1312, 257);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -388,7 +389,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1544, 1004);
+            this.ClientSize = new System.Drawing.Size(1664, 1004);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox1);
