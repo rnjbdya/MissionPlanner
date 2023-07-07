@@ -144,7 +144,10 @@ namespace MissionPlanner
                     if (0 == rightJoystickState[0])
                     {
                         rightJoystickState[0] = 1;
-                        rightOne_Function(); // Simulate rightOne button click in UI screen
+                        if (0 == rightButtonState[0])
+                        {
+                            rightOne_Function(); // Simulate rightOne button click in UI screen
+                        }
                     }
                     JoystickPressCount++;
                 }
@@ -153,7 +156,10 @@ namespace MissionPlanner
                     if (1 == rightJoystickState[0])
                     {
                         rightJoystickState[0] = 0;
-                        rightOne_Function();
+                        if (1 == rightButtonState[0])
+                        {
+                            rightOne_Function();
+                        }
                     }
                 }
 
@@ -162,7 +168,10 @@ namespace MissionPlanner
                     if (0 == rightJoystickState[1])
                     {
                         rightJoystickState[1] = 1;
-                        rightTwo_Function(); // Simulate rightTwo button click in UI screen
+                        if (0 == rightButtonState[1])
+                        {
+                            rightTwo_Function(); // Simulate rightTwo button click in UI screen
+                        }
                     }
 
                     JoystickPressCount++;
@@ -172,7 +181,10 @@ namespace MissionPlanner
                     if (1 == rightJoystickState[1])
                     {
                         rightJoystickState[1] = 0;
-                        rightTwo_Function();
+                        if (1 == rightButtonState[1])
+                        {
+                            rightTwo_Function();
+                        }
                     }
                 }
 
@@ -181,7 +193,10 @@ namespace MissionPlanner
                     if (0 == rightJoystickState[2])
                     {
                         rightJoystickState[2] = 1;
-                        rightThree_Function(); // Simulate rightThree button click in UI screen
+                        if (0 == rightButtonState[2])
+                        {
+                            rightThree_Function(); // Simulate rightThree button click in UI screen
+                        }
                     }
                     JoystickPressCount++;
                 }
@@ -190,7 +205,10 @@ namespace MissionPlanner
                     if (1 == rightJoystickState[2])
                     {
                         rightJoystickState[2] = 0;
-                        rightThree_Function();
+                        if (1 == rightButtonState[2])
+                        {
+                            rightThree_Function();
+                        }
                     }
                 }
 
@@ -199,7 +217,10 @@ namespace MissionPlanner
                     if (0 == rightJoystickState[3])
                     {
                         rightJoystickState[3] = 1;
-                        rightFour_Function(); // Simulate rightFour button click in UI screen
+                        if (0 == rightButtonState[3])
+                        {
+                            rightFour_Function(); // Simulate rightFour button click in UI screen
+                        }
                     }
                     JoystickPressCount++;
                 }
@@ -208,7 +229,10 @@ namespace MissionPlanner
                     if (1 == rightJoystickState[3])
                     { 
                         rightJoystickState[3] = 0;
-                        rightFour_Function();
+                        if (1 == rightButtonState[3])
+                        {
+                            rightFour_Function();
+                        }
                     }
                 }
 
@@ -217,7 +241,10 @@ namespace MissionPlanner
                     if (0 == rightJoystickState[4])
                     {
                         rightJoystickState[4] = 1;
-                        rightFive_Function(); // Simulate rightFive button click in UI screen
+                        if (0 == rightButtonState[4])
+                        {
+                            rightFive_Function(); // Simulate rightFive button click in UI screen
+                        }
                     }
                     JoystickPressCount++;
                 }
@@ -226,7 +253,10 @@ namespace MissionPlanner
                     if (1 == rightJoystickState[4])
                     {
                         rightJoystickState[4] = 0;
-                        rightFive_Function();
+                        if (1 == rightButtonState[4])
+                        {
+                            rightFive_Function();
+                        }
                     }
                 }
 
@@ -236,7 +266,10 @@ namespace MissionPlanner
                     if (0 == leftJoystickState[0])
                     {
                         leftJoystickState[0] = 1;
-                        leftOne_Function(); // Simulate leftOne button click in UI screen
+                        if (0 == leftButtonState[0])
+                        {
+                            leftOne_Function(); // Simulate leftOne button click in UI screen
+                        }
                     }
                     JoystickPressCount++;
                 }
@@ -245,7 +278,10 @@ namespace MissionPlanner
                     if (1 == leftJoystickState[0])
                     { 
                         leftJoystickState[0] = 0;
-                        leftOne_Function();
+                        if (1 == leftButtonState[0])
+                        {
+                            leftOne_Function();
+                        }
                     }
                 }
 
@@ -254,7 +290,10 @@ namespace MissionPlanner
                     if (0 == leftJoystickState[1])
                     {
                         leftJoystickState[1] = 1;
-                        leftTwo_Function(); // Simulate leftTwo button click in UI screen
+                        if (0 == leftButtonState[1])
+                        {
+                            leftTwo_Function(); // Simulate leftTwo button click in UI screen
+                        }
                     }
                     JoystickPressCount++;
                 }
@@ -263,7 +302,10 @@ namespace MissionPlanner
                     if (1 == leftJoystickState[1])
                     {
                         leftJoystickState[1] = 0;
-                        leftTwo_Function();
+                        if (1 == leftButtonState[1])
+                        {
+                            leftTwo_Function();
+                        }
                     }
                 }
 
@@ -272,7 +314,10 @@ namespace MissionPlanner
                     if (0 == leftJoystickState[2])
                     {
                         leftJoystickState[2] = 1;
-                        leftThree_Function(); // Simulate leftThree button click in UI screen
+                        if (0 == leftButtonState[2])
+                        {
+                            leftThree_Function(); // Simulate leftThree button click in UI screen
+                        }
                     }
                     JoystickPressCount++;
                 }
@@ -281,7 +326,10 @@ namespace MissionPlanner
                     if (1 == leftJoystickState[2])
                     {
                         leftJoystickState[2] = 0;
-                        leftThree_Function();
+                        if (1 == leftButtonState[2])
+                        {
+                            leftThree_Function();
+                        }
                     }
                 }
 
@@ -290,7 +338,10 @@ namespace MissionPlanner
                     if (0 == leftJoystickState[3])
                     {
                         leftJoystickState[3] = 1;
-                        leftFour_Function(); // Simulate leftFour button click in UI screen
+                        if (0 == leftButtonState[3])
+                        {
+                            leftFour_Function(); // Simulate leftFour button click in UI screen
+                        }
                     }
                     JoystickPressCount++;
                 }
@@ -299,7 +350,10 @@ namespace MissionPlanner
                     if (1 == leftJoystickState[3])
                     {
                         leftJoystickState[3] = 0;
-                        leftFour_Function();
+                        if (1 == leftButtonState[3])
+                        {
+                            leftFour_Function();
+                        }
                     }
                 }
 
@@ -308,7 +362,10 @@ namespace MissionPlanner
                     if (0 == leftJoystickState[4])
                     {
                         leftJoystickState[4] = 1;
-                        leftFive_Function(); // Simulate leftFive button click in UI screen
+                        if (0 == leftButtonState[4])
+                        {
+                            leftFive_Function(); // Simulate leftFive button click in UI screen
+                        }
                     }
                     JoystickPressCount++;
                 }
@@ -317,7 +374,10 @@ namespace MissionPlanner
                     if (1 == leftJoystickState[4])
                     {
                         leftJoystickState[4] = 0;
-                        leftFive_Function();
+                        if (1 == leftButtonState[4])
+                        {
+                            leftFive_Function();
+                        }
                     }
                 }
 
@@ -333,7 +393,7 @@ namespace MissionPlanner
                 }
                 else
                 {
-                    if (1 == leftJoystickState[5])
+                    if (1 == rightJoystickState[5])
                     { 
                         rightJoystickState[5] = 0;
                         rightOff_Function(); // Simulate left Reset radio button select in UI screen
