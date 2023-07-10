@@ -387,6 +387,8 @@ namespace MissionPlanner
                     if (0 == rightJoystickState[5])
                     {
                         rightJoystickState[5] = 1;
+                        rightOn.Checked = true;
+                        rightOff.Checked = false;
                         rightOn_Function(); // Simulate left Fire radio button select in UI screen
                     }
                     JoystickPressCount++;
@@ -396,6 +398,8 @@ namespace MissionPlanner
                     if (1 == rightJoystickState[5])
                     { 
                         rightJoystickState[5] = 0;
+                        rightOff.Checked = true;
+                        rightOn.Checked = false;
                         rightOff_Function(); // Simulate left Reset radio button select in UI screen
                     }
                 }
@@ -406,6 +410,8 @@ namespace MissionPlanner
                     if (0 == leftJoystickState[5])
                     {
                         leftJoystickState[5] = 1;
+                        leftOn.Checked = true;
+                        leftOff.Checked = false;
                         leftOn_Function(); // Simulate right Fire radio button select in UI screen
                     }
                     JoystickPressCount++;
@@ -415,6 +421,8 @@ namespace MissionPlanner
                     if (1 == leftJoystickState[5])
                     {
                         leftJoystickState[5] = 0;
+                        leftOff.Checked = true;
+                        leftOn.Checked = false;
                         leftOff_Function(); // Simulate right Reset radio button select in UI screen
                     }
                 }
