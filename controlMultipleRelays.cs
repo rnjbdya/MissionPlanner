@@ -458,7 +458,7 @@ namespace MissionPlanner
                 return;
             }
 
-            else if ((_when == "After Left Side Reset") && (0 == cntLeftBullets))
+            else if (_when == "After Left Side Reset")
             {
                 for (int i = 0; i < 5; i++)
                 {
@@ -498,7 +498,7 @@ namespace MissionPlanner
                 return;
             }
 
-            else if ((_when == "After Right Side Reset") && (0 == cntRightBullets))
+            else if (_when == "After Right Side Reset")
             {
                 for (int i = 0; i < 5; i++)
                 {
